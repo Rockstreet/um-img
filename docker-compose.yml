@@ -1,0 +1,9 @@
+app:
+    dockerfile: ./Dockerfile
+    build: ./docker/apache
+    container_name: umimg-app
+    ports:
+            - "8000:80"
+    volumes:
+            - ./web:/var/www/html/web
+
