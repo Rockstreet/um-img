@@ -16,3 +16,8 @@ Route::get('/', function () {
     return view('mainform');
 
 });
+
+
+Route::post('/upload', 'UploadController@uploadfile');
+
+

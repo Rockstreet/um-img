@@ -20,6 +20,7 @@
         #center_block
         {
             margin-top: 200px;
+            margin-bottom: 50px;
         }
 
 
@@ -33,7 +34,7 @@
 <div class="container">
 
     <div class="header">
-        <h3 class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i> Make Your Image Unique</h3>
+        <h3 class="text-muted"><i class="fa fa-picture-o" aria-hidden="true"></i> Make Your Image Unique <small>(beta)</small></h3>
     </div>
 
 
