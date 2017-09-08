@@ -20,4 +20,6 @@ Route::get('/', function () {
 
 Route::post('/upload', 'UploadController@uploadfile');
 
+Route::get('/getfile', 'UploadController@get_my_file');
+
 

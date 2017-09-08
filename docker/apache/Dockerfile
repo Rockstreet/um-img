@@ -31,7 +31,7 @@ RUN apt-get update && \
     docker-php-ext-configure gd --with-freetype-dir=/usr/include/ && \
     docker-php-ext-install -j$(nproc) gd
 # -- mysql
-RUN docker-php-ext-install -j$(nproc) mysql pdo_mysql
+RUN docker-php-ext-install -j$(nproc) fileinfo mysql pdo_mysql
 
 
 
